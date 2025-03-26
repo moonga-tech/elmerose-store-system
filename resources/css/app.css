@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    padding: 0 4em;
+}    
+.banner {
+    background: url(../images/about.jpg) center no-repeat;
+    background-color: rgb(80, 80, 80);
+    background-blend-mode: multiply;
+    min-height: 20em;
+    background-size: cover;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* about us */
+
+.about-us-img {
+    background-image: url(../images/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10em;    
+    border-radius: 10px;
+}
+.about-us-img:hover {
+    cursor: pointer;
+    transition: 1s linear all;
+    transform: translateY(1.1);
+}
+.forms {
+    background: url(../images/about.jpg) center #414141;
+    background-size: cover;
+    background-blend-mode: multiply; 
+}
